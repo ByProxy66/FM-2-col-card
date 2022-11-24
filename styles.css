@@ -24,7 +24,7 @@ align-items: center;
 width:100%;
 gap: 1rem;
 }
-.product {max-width:375px;padding: 1rem;}
+.product {max-width:375px;padding: 1rem;  }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 /*CSS Reset by Jeff Cohmoh */
