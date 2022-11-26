@@ -19,12 +19,13 @@
 
 body {
   font-family: var(--fnt-family-base);
-  font-size: 16px;
+  font-size:1rem;
   padding:1rem;
+  background-color: var(--clr-light);
 }
 
-img {
-  margin: 2rem 0;
+div > img {
+  padding: 2rem 0;
 }
 
 h1,
@@ -36,7 +37,9 @@ h2 {
   font-size: 3rem;
   text-transform: uppercase;
 }
-
+p {
+  font-size: var(--fnt-size-400);
+}
 .container {
   display: flex;
   flex-wrap: wrap;
